@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag 'comments.css' %>
+
+
+<p class = "comment-header"> 
+    <strong class>Commenter:</strong>
+    <%= comment.commenter%>
+</p>
+
+<p class = "comment"> 
+    <strong>Comment:</strong>
+    <%= comment.body%>
+</p>
+
+<p class = "destroy-link">
+    <%= link_to 'Destroy Comment', [comment.article, comment],
+                method: :delete,
+                data: { confirm: "Are you sure?" } %>
+</p>

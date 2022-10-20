@@ -1,0 +1,20 @@
+.comments-title{
+    text-align: left;
+    outline-color: blueviolet;
+}
+
+.add-a-comment-header{
+    text-align: right;
+}
+
+.edit-button{
+ color: black;
+}
+
+.destroy-button{
+    color: black;
+}
+
+.article-options{
+    text-align: center;
+}

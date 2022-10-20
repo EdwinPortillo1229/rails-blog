@@ -1,0 +1,22 @@
+.article-names{
+    text-transform: capitalize;
+}
+
+.smiley{
+    position: relative;
+    top: 5%;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.greeting{
+    background-color: red;
+    text-transform: capitalize;
+}
+
+.header{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 8px;
+}

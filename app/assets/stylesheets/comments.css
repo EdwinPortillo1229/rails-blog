@@ -1,0 +1,14 @@
+.comment-header{
+    text-align: left;
+    color: red;
+}
+
+.comment {
+    text-align: left;
+    text-indent: 50px;
+}
+
+.destroy-link {
+    text-align: left;
+    text-indent: 50px;
+}

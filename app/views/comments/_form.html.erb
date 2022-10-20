@@ -1,0 +1,23 @@
+<%= stylesheet_link_tag 'comment_form.css' %>
+<%= form_with model: [@article, @article.comments.build ] do
+|form| %>
+    <p class = "commenter-box">
+        <%= form.label :commenter%>
+        <%= form.text_field :commenter %>
+    </p>
+
+    <p class = "commment-body-box">
+        <%= form.label :body%>
+        <%= form.text_area :body %>
+    </p>
+    
+    <p class = "comment-status-dropdown">
+        <%= form.label :status %><br>
+        <%= form.select :status, ['public', 'private', 'archived'], 
+        selected: 'public' %>
+    </p>
+    
+    <p class = "comment-submit">
+        <%= form.submit%>
+    </p>
+<% end %>

@@ -1,0 +1,17 @@
+<%= stylesheet_link_tag 'show.css' %>
+<h1><%= @article.title %></h1>
+
+<p><%= @article.body %></p>
+
+<ul class = 'article-options'>
+    <li class = 'edit-button'><%= link_to "Edit", edit_article_path(@article) %></li>
+    <li class = 'destroy-button'><%= link_to "Destroy", article_path(@article),
+                    method: :delete,
+                    data: { confirm: "Are you sure?"  }%></li>
+</ul>
+
+<h2 class = "comments-title">Comments</h2>
+<%= render @article.comments %>
+
+<h2 class="add-a-comment-header" style="text-align:center">Add a comment:</h2>
+<%= render 'comments/form' %>

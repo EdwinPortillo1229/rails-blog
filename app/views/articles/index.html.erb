@@ -1,0 +1,19 @@
+<%= stylesheet_link_tag 'index.css'%>
+
+<h1 class = header>Articles</h1>
+
+<h2 class = 'greeting'> Our blog has <%= Article.public_count %> articles and counting! </h2>
+
+<ul class = 'article-names'>
+  <% @articles.each do |article| %>
+    <li>
+      <%= link_to article.title, article %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Article", new_article_path %> <br>
+
+<a href='https://www.google.com'>
+  <img class = 'smiley' src = "/assets/smiley_face.png" alt = 'smiley face'>
+</a>

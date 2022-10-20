@@ -1,0 +1,30 @@
+h1{
+    color: white;
+}
+
+
+body {
+    background-color: black;
+    background-size: 50%;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-align: center;
+    text-decoration-style: double;
+    text-decoration-thickness: 1px;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+ul{
+    text-align: left;
+}
