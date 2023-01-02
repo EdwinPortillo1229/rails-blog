@@ -1,28 +1,27 @@
 h1{
-    color: white;
+    color: black;
 }
 
 
 body {
-    background-color: black;
+    background-color: wheat;
     background-size: 50%;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 a {
-    color: white;
-    text-align: center;
+    color: black;
     text-decoration-style: double;
     text-decoration-thickness: 1px;
 }
 
 a:hover {
-    color: purple;
+    color: blue;
 }
 
 a:visited {
-    color: aquamarine;
+    color: magenta;
 }
 
 ul{

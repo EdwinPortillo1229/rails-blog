@@ -11,12 +11,10 @@
 }
 
 .greeting{
-    background-color: red;
+    font-style: italic;
     text-transform: capitalize;
 }
 
 .header{
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 8px;
+    text-decoration: underline;
 }

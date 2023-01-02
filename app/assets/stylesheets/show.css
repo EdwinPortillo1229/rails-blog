@@ -1,3 +1,7 @@
+a#back-to-articles{
+    text-align: right !important;
+}
+
 .comments-title{
     text-align: left;
     outline-color: blueviolet;
